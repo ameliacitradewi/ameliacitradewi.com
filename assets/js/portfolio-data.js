@@ -14,7 +14,7 @@ const portfolioData = [
     client: "Personal Project",
     date: "March 2026",
     url: "https://apple.co/4cWllGK",
-    shortDescription: "PokéMaster: Who’s That Monster? is a silhouette-based Pokémon guessing game powered by PokéAPI.",
+    shortDescription: "PokéMaster is a silhouette-based Pokémon guessing game powered by PokéAPI.",
     description: "PokéMaster: Who’s That Monster? is a silhouette-based Pokémon guessing game powered by PokéAPI. Players are challenged to identify 1025 Pokémon from their shadows, and once the guess is correct, the Pokémon will be added and displayed in the collection page."
   },
   {
