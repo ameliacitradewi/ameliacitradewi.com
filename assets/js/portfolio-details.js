@@ -14,12 +14,17 @@ document.addEventListener("DOMContentLoaded", () => {
   document.getElementById("portfolio-title").textContent = project.title;
   document.getElementById("portfolio-description").textContent = project.description;
 
+  const urlDisplay =
+    project.url && project.url !== "-"
+      ? `<a href="${project.url}" target="_blank" rel="noopener noreferrer">${project.url}</a>`
+      : project.url || "—";
+
   // Info
   document.getElementById("portfolio-info").innerHTML = `
     <li><strong>Category</strong>: ${project.category}</li>
     <li><strong>Client</strong>: ${project.client}</li>
     <li><strong>Date</strong>: ${project.date}</li>
-    <li><strong>URL</strong>: ${project.url}</li>
+    <li><strong>URL</strong>: ${urlDisplay}</li>
   `;
 
   // Images stacked vertically (no slider)
