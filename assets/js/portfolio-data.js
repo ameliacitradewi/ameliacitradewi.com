@@ -1,7 +1,8 @@
 const portfolioData = [
   {
     id: "pokemaster",
-    coverImage: "assets/img/portfolio/52-PokeMasterCover.png",
+    coverImage: "assets/img/portfolio/52-PokeMasterCover-card.jpg",
+    coverImageFull: "assets/img/portfolio/52-PokeMasterCover.png",
     title: "PokéMaster: Who's That Monster?",
     category: "App",
     filter: "filter-app",
@@ -19,7 +20,8 @@ const portfolioData = [
   },
   {
     id: "comano",
-    coverImage: "assets/img/portfolio/1-ComanoCover.png",
+    coverImage: "assets/img/portfolio/1-ComanoCover-card.jpg",
+    coverImageFull: "assets/img/portfolio/1-ComanoCover.png",
     title: "Comano: Public Speaking Coach",
     category: "App",
     filter: "filter-app",
@@ -41,7 +43,8 @@ const portfolioData = [
   },
   {
     id: "deeptalk",
-    coverImage: "assets/img/portfolio/14-DeepTalkCover.png",
+    coverImage: "assets/img/portfolio/14-DeepTalkCover-card.jpg",
+    coverImageFull: "assets/img/portfolio/14-DeepTalkCover.png",
     title: "DeepTalk: Connect Deeper",
     category: "App",
     filter: "filter-app",
@@ -62,7 +65,8 @@ const portfolioData = [
   },
   {
     id: "tickago",
-    coverImage: "assets/img/portfolio/9-TickaGoCover.png",
+    coverImage: "assets/img/portfolio/9-TickaGoCover-card.jpg",
+    coverImageFull: "assets/img/portfolio/9-TickaGoCover.png",
     title: "TickaGo",
     category: "App",
     filter: "filter-app",
@@ -80,7 +84,8 @@ const portfolioData = [
   },
   {
     id: "listrict",
-    coverImage: "assets/img/portfolio/23-LiStrictCover.png",
+    coverImage: "assets/img/portfolio/23-LiStrictCover-card.jpg",
+    coverImageFull: "assets/img/portfolio/23-LiStrictCover.png",
     title: "LiStrict",
     category: "App",
     filter: "filter-app",
@@ -97,7 +102,8 @@ const portfolioData = [
   },
   {
     id: "trackta",
-    coverImage: "assets/img/portfolio/27-TracktaCover.png",
+    coverImage: "assets/img/portfolio/27-TracktaCover-card.jpg",
+    coverImageFull: "assets/img/portfolio/27-TracktaCover.png",
     title: "Trackta",
     category: "App",
     filter: "filter-app",
@@ -114,7 +120,8 @@ const portfolioData = [
   },
   {
     id: "kanigara",
-    coverImage: "assets/img/portfolio/32-KanigaraCover.png",
+    coverImage: "assets/img/portfolio/32-KanigaraCover-card.jpg",
+    coverImageFull: "assets/img/portfolio/32-KanigaraCover.png",
     title: "Company Website",
     category: "Web",
     filter: "filter-web",
@@ -131,7 +138,8 @@ const portfolioData = [
   },
   {
     id: "repeatorderprobability",
-    coverImage: "assets/img/portfolio/46-RepeatOrderCover.png",
+    coverImage: "assets/img/portfolio/46-RepeatOrderCover-card.jpg",
+    coverImageFull: "assets/img/portfolio/46-RepeatOrderCover.png",
     title: "Customer Repeat Purchase Classification",
     category: "AI/ML",
     filter: "filter-aiml",
@@ -150,7 +158,8 @@ const portfolioData = [
   },
   {
     id: "loyaltyclassification",
-    coverImage: "assets/img/portfolio/36-LoyaltyCover.png",
+    coverImage: "assets/img/portfolio/36-LoyaltyCover-card.jpg",
+    coverImageFull: "assets/img/portfolio/36-LoyaltyCover.png",
     title: "Customer Loyalty Classification",
     category: "AI/ML",
     filter: "filter-aiml",

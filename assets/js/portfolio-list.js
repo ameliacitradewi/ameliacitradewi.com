@@ -15,16 +15,18 @@ if (typeof portfolioData !== "undefined") {
       const coverImage =
         item.coverImage ||
         (item.images && item.images.length ? item.images[0] : "");
+      // Full-size asset for lightbox when grid uses optimized card image.
+      const coverLightbox = item.coverImageFull || coverImage;
 
       const cardHTML = `
         <div class="col-lg-4 col-md-6 portfolio-item isotope-item ${item.filter}">
           <div class="portfolio-content h-100">
-            <img src="${coverImage}" class="img-fluid" alt="${item.title}">
+            <img src="${coverImage}" class="img-fluid" alt="${item.title}" loading="lazy" decoding="async" width="720">
             <div class="portfolio-info">
               <h4>${item.title}</h4>
               <p>${item.shortDescription}</p>
               <div>
-                <a href="${coverImage}"
+                <a href="${coverLightbox}"
                    title="${item.title}"
                    data-gallery="portfolio-gallery"
                    class="glightbox preview-link">

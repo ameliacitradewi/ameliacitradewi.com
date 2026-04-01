@@ -5,8 +5,9 @@ document.addEventListener("DOMContentLoaded", () => {
   const project = portfolioData.find(item => item.id === id);
   if (!project) return;
 
-  // Determine cover image (prefer explicit coverImage; fallback to first image)
-  const coverImage =
+  // Dedupe gallery vs cover using full asset path (grid may use *-card.jpg)
+  const coverForDedup =
+    project.coverImageFull ||
     project.coverImage ||
     (project.images && project.images.length ? project.images[0] : "");
 
@@ -31,8 +32,8 @@ document.addEventListener("DOMContentLoaded", () => {
   const imagesContainer = document.getElementById("portfolio-images");
   // Render gallery images without duplicating the cover.
   const galleryImages = Array.isArray(project.images) ? [...project.images] : [];
-  if (coverImage) {
-    const idx = galleryImages.indexOf(coverImage);
+  if (coverForDedup) {
+    const idx = galleryImages.indexOf(coverForDedup);
     if (idx !== -1) galleryImages.splice(idx, 1); // remove only first match
   }
 
