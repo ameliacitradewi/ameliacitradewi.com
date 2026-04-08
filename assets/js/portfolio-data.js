@@ -78,7 +78,7 @@ const portfolioData = [
     ],
     client: "Collective Project",
     date: "October 2025",
-    url: "https://apple.co/45f1JsN",
+    url: "https://testflight.apple.com/join/mpy9rzqa",
     shortDescription: "TickaGo is a social utility app that helps groups stay on time for shared events.",
     description: "TickaGo is a social utility app that helps groups stay on time for shared events."
   },
