@@ -1,5 +1,23 @@
 const portfolioData = [
   {
+    id: "medcover",
+    coverImage: "assets/img/portfolio/56-MedCoverCover-card.webp",
+    coverImageFull: "assets/img/portfolio/56-MedCoverCover.webp",
+    title: "MedCover: Insurance Cost Prediction with Machine Learning",
+    category: "AI/ML",
+    filter: "filter-aiml",
+
+    images: [
+      "assets/img/portfolio/57.webp",
+      "assets/img/portfolio/58.webp",
+    ],
+    client: "Apple Developer Institute for AI/ML",
+    date: "April 2026",
+    url: "https://testflight.apple.com/join/PHQqdxbu",
+    shortDescription: "MedCover is an AI-powered app that predicts insurance costs based on user health data.",
+    description: "MedCover: Insurance Cost Prediction with Machine Learning is an innovative app that uses machine learning algorithms to predict insurance costs based on user health data."
+  },
+  {
     id: "pokemaster",
     coverImage: "assets/img/portfolio/52-PokeMasterCover-card.webp",
     coverImageFull: "assets/img/portfolio/52-PokeMasterCover.webp",
