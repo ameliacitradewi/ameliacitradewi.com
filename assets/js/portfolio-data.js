@@ -10,6 +10,7 @@ const portfolioData = [
     images: [
       "assets/img/portfolio/57.webp",
       "assets/img/portfolio/58.webp",
+      "assets/img/portfolio/59.webp",
     ],
     client: "Apple Developer Institute for AI/ML",
     date: "April 2026",
